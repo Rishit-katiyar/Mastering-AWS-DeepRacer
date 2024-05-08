@@ -19,6 +19,29 @@ Central to the success of RL agents in AWS DeepRacer is the design of the reward
 - Smooth Gradients: Ensure smooth and continuous gradients to facilitate learning.
 - Simplicity and Interpretability: Emphasize simplicity and interpretability to enable robust and transferable learning.
 
+### AWS DeepRacer Sensors and Data Structure:
+
+```python
+{
+    "all_wheels_on_track": Boolean,        # flag to indicate if the agent is on the track
+    "x": float,                            # agent's x-coordinate in meters
+    "y": float,                            # agent's y-coordinate in meters
+    "closest_waypoints": [int, int],       # indices of the two nearest waypoints.
+    "distance_from_center": float,         # distance in meters from the track center 
+    "is_left_of_center": Boolean,          # Flag to indicate if the agent is on the left side to the track center or not. 
+    "is_offtrack": Boolean,                # Boolean flag to indicate whether the agent has gone off track.
+    "is_reversed": Boolean,                # flag to indicate if the agent is driving clockwise (True) or counter clockwise (False).
+    "heading": float,                      # agent's yaw in degrees
+    "progress": float,                     # percentage of track completed
+    "speed": float,                        # agent's speed in meters per second (m/s)
+    "steering_angle": float,               # agent's steering angle in degrees
+    "steps": int,                          # number steps completed
+    "track_length": float,                 # track length in meters.
+    "track_width": float,                  # width of the track
+    "waypoints": [(float, float), ]        # list of (x,y) as milestones along the track center
+}
+```
+
 ### Hyperparameter Optimization:
 Hyperparameter optimization stands as a cornerstone in the quest for optimal performance of RL algorithms within AWS DeepRacer. These hyperparameters govern various facets of the learning process, including exploration-exploitation trade-offs, network architectures, and optimization algorithms. Techniques for hyperparameter optimization range from exhaustive grid search to probabilistic Bayesian optimization, each offering unique advantages in fine-tuning agent performance.
 
@@ -28,3 +51,13 @@ Hyperparameter optimization stands as a cornerstone in the quest for optimal per
 - Bayesian Optimization: Use probabilistic models to guide the search process based on past evaluations.
 
 Effective hyperparameter optimization holds the key to unlocking the full potential of RL agents in AWS DeepRacer, ushering in an era of heightened efficiency, convergence speed, and performance across diverse racing scenarios.
+
+### Fill in the Blank Questions:
+1. Deep Q-Networks (DQN) approximate the Q-value function to foresee rewards awaiting agents in the crucible of decision-making with unparalleled _______ and _______.
+2. Policy gradient methods navigate high-dimensional action spaces, unfettered by the constraints of value functions, to sculpt policies with the finesse of a master _______.
+3. Actor-critic methods offer more stable and efficient learning by engaging separate actor and critic networks in a symbiotic dance of learning and _______.
+4. Trust Region Policy Optimization (TRPO) constrains policy updates to ensure more stable and gradual _______.
+
+### References:
+- AWS DeepRacer Developer Guide. (n.d.). Amazon Web Services, Inc.
+- AWS RoboMaker Documentation. (n.d.). Amazon Web Services, Inc.
