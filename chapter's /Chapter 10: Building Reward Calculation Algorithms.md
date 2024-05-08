@@ -105,3 +105,17 @@ def build_drqn_model(input_shape, action_space):
     model.add(Dense(action_space, activation='softmax'))
     return model
 ```
+
+
+### Fill in the Blank Questions:
+1. In autonomous racing, ________ features derived from LiDAR sensor data can include the curvature of the track, distances to track boundaries, and angles of approach to waypoints.
+2. ________ is widely used for feature extraction and data compression in various machine learning tasks, including autonomous racing.
+3. Translation augmentation helps models generalize to variations in ________ or track layout by simulating lateral or longitudinal shifts in the environment.
+4. RNNs are well-suited for modeling dynamic environments and sequential decision-making tasks due to their ability to capture ________ in the data.
+
+### References:
+- Brownlee, J. (2023). "Feature Engineering for Machine Learning: Principles and Techniques for Data Scientists." Machine Learning Mastery.
+- Bengio, Y. et al. (2015). "Scheduled Sampling for Sequence Prediction with Recurrent Neural Networks." Advances in Neural Information Processing Systems.
+- Sutton, R. S. and Barto, A. G. (2018). "Reinforcement Learning: An Introduction." MIT Press.
+
+
