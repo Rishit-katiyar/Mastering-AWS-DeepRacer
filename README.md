@@ -3,6 +3,7 @@
 **Table of Contents:**
 
 **Part I: Introduction to AWS DeepRacer**
+
 1. Chapter 1: Understanding Autonomous Racing
    - Evolution of autonomous vehicles
    - Introduction to AWS DeepRacer
@@ -12,6 +13,7 @@
    - AWS RoboMaker integration
    
 **Part II: Reinforcement Learning Basics**
+
 3. Chapter 3: Fundamentals of Reinforcement Learning
    - Basic concepts and terminology
    - Markov Decision Processes (MDPs)
@@ -25,6 +27,7 @@
    - REINFORCE algorithm
    
 **Part III: Designing Reward Functions**
+
 6. Chapter 6: Role of Reward Functions
    - Importance in reinforcement learning
    - Design considerations
@@ -38,6 +41,7 @@
    - Proximity-based rewards
    
 **Part IV: Implementing Reward Functions in AWS DeepRacer**
+
 9. Chapter 9: Extracting Environment Data
    - Sensor data acquisition
    - Data preprocessing techniques
@@ -51,6 +55,7 @@
     - Performance evaluation metrics
    
 **Part V: Advanced Strategies and Optimization**
+
 12. Chapter 12: Genetic Algorithms for Optimization
     - Genetic algorithm fundamentals
     - Parameter tuning and optimization
@@ -60,6 +65,7 @@
     - Policy gradient methods
    
 **Part VI: Real-world Applications and Case Studies**
+
 14. Chapter 14: Track-specific Reward Function Design
     - Yun Speedway optimization
     - London Loop Challenge
@@ -69,6 +75,7 @@
     - S-shaped curve negotiation
    
 **Part VII: Challenges and Solutions**
+
 16. Chapter 16: Overfitting and Underfitting
     - Regularization techniques
     - Model simplification approaches
@@ -78,6 +85,7 @@
     - Simplification strategies
    
 **Part VIII: Future Directions and Emerging Trends**
+
 18. Chapter 18: Reinforcement Learning Advancements
     - Deep reinforcement learning innovations
     - Transfer learning in DeepRacer
@@ -87,6 +95,7 @@
     - Ethical challenges and solutions
    
 **Part IX: Conclusion and Recommendations**
+
 20. Chapter 20: Summary and Key Takeaways
     - Summary of key findings
     - Recommendations for further exploration
