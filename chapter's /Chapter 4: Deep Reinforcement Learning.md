@@ -28,3 +28,13 @@ In the hallowed halls of Deep RL, actor-critic methods emerge as the apotheosis 
 1. **Enhanced Stability:** Actor-critic methods offer more stable and efficient learning compared to standalone value-based or policy gradient approaches, leveraging the strengths of both paradigms.
 2. **Efficiency in Continuous Control:** With their ability to learn stochastic policies, actor-critic methods excel in tasks with continuous action spaces such as robotics and control systems.
 3. **Real-time Decision-making:** The parallelized environments and asynchronous updates employed by actor-critic algorithms enable real-time decision-making in dynamic environments, making them ideal for applications requiring rapid adaptation and response.
+
+### Fill in the Blank Questions:
+1. Deep Q-Networks (DQN) approximate the Q-value function to foresee rewards awaiting agents in the crucible of decision-making with unparalleled _______ and _______.
+2. Policy gradient methods navigate high-dimensional action spaces, unfettered by the constraints of value functions, to sculpt policies with the finesse of a master _______.
+3. Actor-critic methods offer more stable and efficient learning by engaging separate actor and critic networks in a symbiotic dance of learning and _______.
+4. Trust Region Policy Optimization (TRPO) constrains policy updates to ensure more stable and gradual _______.
+
+### References:
+- Mnih, V., Kavukcuoglu, K., Silver, D., Rusu, A. A., Veness, J., Bellemare, M. G., ... & Petersen, S. (2015). Human-level control through deep reinforcement learning. Nature, 518(7540), 529-533.
+- Schulman, J., Levine, S., Moritz, P., Jordan, M. I., & Abbeel, P. (2015). Trust region policy optimization. In Proceedings of the 32nd International Conference on Machine Learning (ICML-15) (pp. 1889-1897).
