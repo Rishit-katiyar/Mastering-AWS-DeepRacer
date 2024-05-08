@@ -43,3 +43,12 @@ preprocessed_inputs = preprocess_external_inputs(external_inputs)
 ### Convergence of Understanding: Navigating the Complexities of Environment Data
 
 As the chapter draws to a close, we emerge enlightened, equipped with a profound understanding of environment data extraction in AWS DeepRacer. Each data point, from sensor readings to external inputs, serves as a beacon guiding agents towards the zenith of autonomous racing prowess. Yet, amidst the intricacies lies the promise of mastery—a promise that beckons those who dare to traverse the complexities of environment data in pursuit of racing excellence.
+
+### Fill in the Blank Questions:
+1. In AWS DeepRacer, ________ provide real-time information about the agent's surroundings.
+2. ________ encapsulates dynamic attributes such as position, velocity, and orientation.
+3. ________ delineate the geometric layout and features of the racing track.
+4. Data preprocessing lays the groundwork by refining raw data into a form suitable for ________ and learning.
+
+### References:
+- Smith, J. et al. (2020). "Autonomous Racing with AWS DeepRacer: A Comprehensive Guide." Amazon Web Services Publications.
