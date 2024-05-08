@@ -4,7 +4,7 @@
 
 Genetic algorithms (GAs) represent a class of optimization algorithms that draw inspiration from the principles of natural selection and genetics. They are designed to tackle complex optimization problems by mimicking the process of evolution and the survival of the fittest. GAs operate on a population of candidate solutions, iteratively evolving and improving them over successive generations through processes such as selection, crossover, and mutation.
 
-## Genetic Representation
+### Genetic Representation
 
 In genetic algorithms, solutions to optimization problems are represented as chromosomes or individuals within a population. Each chromosome consists of genes that encode potential solutions to the problem at hand. The structure and encoding of chromosomes can vary widely depending on the nature of the optimization task, with different representations suited to different types of problems.
 
@@ -18,7 +18,7 @@ class Chromosome:
 population = [Chromosome(genes) for _ in range(population_size)]
 ```
 
-## Selection Operators
+### Selection Operators
 
 Selection operators are responsible for choosing individuals from the current population for reproduction, based on their fitness or performance. Various selection mechanisms are employed in genetic algorithms, including:
 
@@ -41,7 +41,7 @@ def tournament_selection(population, fitness_scores, tournament_size):
     return population[winner_index]
 ```
 
-## Crossover and Mutation
+### Crossover and Mutation
 
 Crossover and mutation serve as genetic operators used to generate new offspring from parent individuals during the reproduction process.
 
@@ -67,7 +67,7 @@ def mutation(individual, mutation_rate):
     return mutated_individual
 ```
 
-## Fitness Evaluation
+### Fitness Evaluation
 
 The fitness function serves as the guiding principle in genetic algorithms, evaluating the quality or suitability of candidate solutions based on predefined criteria. The fitness function assigns a numerical score or fitness value to each individual in the population, indicating its performance or suitability for solving the optimization problem.
 
@@ -78,3 +78,12 @@ The fitness evaluation process involves:
 3. **Fitness Assignment:** Calculating fitness scores for each individual in the population based on their performance according to the defined criteria. Individuals with higher fitness scores are considered more promising and are more likely to be selected for reproduction.
 
 By iteratively applying selection, crossover, mutation, and fitness evaluation processes, genetic algorithms progressively evolve and refine candidate solutions, converging towards optimal or near-optimal solutions to complex optimization problems.
+
+### Fill in the Blanks:
+1. In genetic algorithms, ____________ to optimization problems are represented as chromosomes or individuals within a population.
+2. ______________ introduces new offspring by exchanging genetic material from two parent individuals.
+3. __________________________ creates random subsets of the population for competition.
+4. The ___________________ evaluates the quality of candidate solutions based on predefined criteria.
+
+### References:
+- Goldberg, D. E. (1989). "Genetic Algorithms in Search, Optimization, and Machine Learning." Addison-Wesley.
