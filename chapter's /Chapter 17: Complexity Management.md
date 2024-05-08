@@ -8,13 +8,66 @@ In the labyrinthine expanse of reinforcement learning, where agents voyage throu
 
 At the nucleus of complexity management lies the ethos of modular design – a venerable technique cherished by architects and engineers alike. Modular design dissects unwieldy systems into digestible components, fostering modularity, reusability, and maintainability. By compartmentalizing monolithic models into modular constructs, practitioners encapsulate discrete functionalities and interactions, fostering a structured framework that facilitates seamless integration and evolution.
 
+```python
+# Example of modular design in reinforcement learning architecture
+class ModularAgent:
+    def __init__(self):
+        self.policy_module = PolicyModule()
+        self.value_function_module = ValueFunctionModule()
+        self.memory_module = MemoryModule()
+    
+    def act(self, observation):
+        action = self.policy_module.select_action(observation)
+        return action
+    
+    def learn(self, observation, action, reward, next_observation):
+        self.memory_module.store_transition(observation, action, reward, next_observation)
+        # Learning process involving policy and value function updates
+        self.policy_module.update()
+        self.value_function_module.update()
+```
+
 ### Embracing Hierarchical Reinforcement Learning
 
 As agents grapple with increasingly intricate environments, the hierarchical organization of knowledge emerges as a potent weapon against complexity. Hierarchical reinforcement learning empowers agents to decompose tasks into a hierarchical tapestry of subtasks, each imbued with its own objectives and policies. Navigating this hierarchical labyrinth enables agents to manage complexity adeptly, leveraging higher-level abstractions to guide decision-making and orchestrate behavior across multiple tiers of abstraction.
 
+```python
+# Example of hierarchical reinforcement learning with subtasks
+class HierarchicalAgent:
+    def __init__(self):
+        self.subtask_manager = SubtaskManager()
+        self.subtask_agents = [SubtaskAgent() for _ in range(num_subtasks)]
+    
+    def act(self, observation):
+        subtask = self.subtask_manager.select_subtask(observation)
+        action = self.subtask_agents[subtask].act(observation)
+        return action
+    
+    def learn(self, observation, action, reward, next_observation):
+        subtask = self.subtask_manager.select_subtask(observation)
+        self.subtask_agents[subtask].learn(observation, action, reward, next_observation)
+```
+
 ### Harnessing the Power of Ensemble Methods
 
 In the crucible of uncertainty and variability, ensemble methods stand as stalwart guardians, wielding the might of diversity to combat the caprices of randomness and noise. By amalgamating the prognostications of multiple models, ensemble methods mitigate the perils of overfitting, bolster robustness, and amplify generalization prowess. Whether through the fusion of heterogeneous models or the amalgamation of diverse training data, ensemble methods furnish a versatile arsenal for managing complexity and uncertainty in reinforcement learning systems.
+
+```python
+# Example of ensemble learning in reinforcement learning
+class EnsembleAgent:
+    def __init__(self, num_models):
+        self.models = [Model() for _ in range(num_models)]
+    
+    def act(self, observation):
+        actions = [model.select_action(observation) for model in self.models]
+        # Aggregate actions using ensemble method (e.g., voting)
+        aggregated_action = ensemble_voting(actions)
+        return aggregated_action
+    
+    def learn(self, observation, action, reward, next_observation):
+        for model in self.models:
+            model.update(observation, action, reward, next_observation)
+```
 
 ## Optimizing Computational Resources for Expedited Convergence
 
