@@ -21,6 +21,8 @@ def distance_reward(distance):
     return reward
 ```
 
+The above Python code snippet showcases a meticulous function for calculating distance-based rewards in an autonomous racing scenario. Here, the distance parameter represents the proximity of the agent to a designated trajectory or waypoint. By utilizing predefined distance thresholds and corresponding reward levels, the function assigns appropriate rewards to incentivize the agent's navigation towards optimal paths.
+
 #### 2. Progress-based Rewards: Navigating Temporal Realms with Purpose
 
 Progress-based rewards, the chronicles of agents' odysseys through time and space, serve as guiding beacons illuminating the path towards key milestones and achievements. From the triumphant echoes of lap completion to the whispered murmurs of track coverage, these rewards motivate agents to forge ahead with unwavering determination and purpose. Witness the majesty of progress-based rewards, encapsulated in the following ode:
@@ -35,6 +37,8 @@ def progress_reward(progress):
         reward = REWARD_LOW
     return reward
 ```
+
+In the above Python excerpt, the function `progress_reward()` calculates rewards based on the progress made by the agent. Progress, typically measured as a percentage of completion towards a predefined goal, serves as a pivotal metric for assessing the agent's advancement through the racing environment. By applying progressive thresholds, the function assigns varying levels of rewards, thereby incentivizing the agent's continual progress towards mastery.
 
 #### 3. Action-specific Rewards: Navigating Behavioral Realms with Finesse
 
@@ -58,6 +62,8 @@ def steering_reward(steering):
     return reward
 ```
 
+Within the realm of autonomous racing, the Python functions `speed_reward()` and `steering_reward()` intricately evaluate the agent's speed and steering actions, respectively. By setting threshold values indicative of desired performance levels, these functions assign rewards commensurate with the agent's adherence to optimal speed and steering behaviors. Such nuanced reward mechanisms facilitate the cultivation of agile and precise driving skills essential for navigating complex racing environments.
+
 #### 4. Dynamic Rewards: Navigating Realms of Uncertainty with Adaptability
 
 Dynamic rewards, the chameleons of the reward function landscape, imbue adaptability and variability into the agent's journey, responding dynamically to changes in the environment or behavior. From the serene tranquility of smooth driving incentives to the thundering fury of off-track penalties, these rewards empower agents to navigate diverse racing scenarios with agility and finesse. Embrace the ever-evolving symphony of dynamic rewards, as depicted in the following opus:
@@ -72,6 +78,8 @@ def dynamic_reward(environment, behavior):
         reward = REWARD_DEFAULT
     return reward
 ```
+
+In the realm of dynamic rewards, adaptability reigns supreme. The Python function `dynamic_reward()` exemplifies this ethos by dynamically adjusting rewards based on environmental changes and agent behaviors. Whether encountering unforeseen obstacles or exhibiting exemplary driving skills, the agent's rewards fluctuate in response to the evolving landscape, thereby fostering adaptive decision-making and resilience in the face of uncertainty.
 
 ### Convergence of Complexity: A Symphony in the Making
 
