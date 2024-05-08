@@ -17,9 +17,57 @@ The genesis of reward function design lies in a noble pursuit—an ardent quest 
 
 The influence of reward functions on the learning process of RL agents is akin to that of a master artisan sculpting a masterpiece from a block of marble—nuanced, profound, and transformative. These ethereal constructs wield the power to shape policies, behaviors, and performance with the deft touch of a virtuoso, guiding agents through the intricate maze of decision-making with clarity and purpose. Well-crafted reward functions serve as beacons of enlightenment, illuminating the path to mastery with clarity and precision. By modulating policy gradients, value estimates, and exploration-exploitation trade-offs, reward functions channel the agent's efforts towards the attainment of optimal outcomes, guiding them through the labyrinthine corridors of learning with grace and poise. Yet, in the shadows lurk the specters of chaos and confusion, where poorly designed reward functions sow seeds of discord, leading to suboptimal policies, sparse rewards, and learning instabilities—a poignant reminder of the delicate balance between reward and ruin in the tapestry of RL applications.
 
+```python
+# AWS DeepRacer Python code snippet for reward function design
+
+def reward_function(params):
+    """
+    Example reward function for DeepRacer
+    """
+    # Extract relevant parameters
+    track_width = params['track_width']
+    distance_from_center = params['distance_from_center']
+    all_wheels_on_track = params['all_wheels_on_track']
+    # Define reward logic
+    if all_wheels_on_track and distance_from_center <= 0.5 * track_width:
+        reward = 1.0
+    else:
+        reward = 0.0
+    return float(reward)
+```
+
 ### Navigating the Complexities: Strategies for Reward Function Engineering:
 
 The art of reward function engineering is a nuanced dance—a delicate balancing act between artistry and pragmatism, intuition and rigor. Crafting reward functions demands a keen understanding of task dynamics, agent capabilities, and learning objectives, coupled with a deft touch and an unwavering commitment to excellence. From the judicious selection of reward signals to the careful calibration of scalar values, every design choice carries profound implications for the agent's journey towards mastery. Effective reward function engineering requires a holistic approach, encompassing principles of simplicity, interpretability, and alignment with task objectives. By adhering to these guiding principles and leveraging domain knowledge, practitioners can navigate the complexities of reward function design with confidence and clarity, steering their agents towards the shores of optimal decision-making with grace and precision.
+
+```python
+# AWS DeepRacer Python code snippets
+
+import numpy as np
+
+def reward_function(params):
+    """
+    Example reward function for AWS DeepRacer
+    """
+    # reward initialization
+    reward = 0
+    
+    # extract relevant parameters
+    all_wheels_on_track = params['all_wheels_on_track']
+    steps = params['steps']
+    progress = params['progress']
+    
+    # define reward logic
+    if all_wheels_on_track:
+        reward += 1.0
+    else:
+        reward -= 1.0
+    
+    # additional logic based on progress or other parameters
+    
+    return float(reward)
+
+```
 
 ### Reflections on the Horizon: Charting the Course Forward:
 
