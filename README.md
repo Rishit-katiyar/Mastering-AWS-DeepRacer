@@ -8,19 +8,28 @@ Autonomous vehicles captivate both the public and industry professionals. **Mast
 
 ## Table of Contents:
 - [Beginner Code Snippets](https://github.com/Rishit-katiyar/Mastering-AWS-DeepRacer/tree/main/beginner%20code%20snippets)
-- [Chapters](https://github.com/Rishit-katiyar/Mastering-AWS-DeepRacer/tree/main/chapters)
+- [Chapters (no. 1 to 21)](https://github.com/Rishit-katiyar/Mastering-AWS-DeepRacer/tree/main/chapters)
 - [Guide](https://github.com/Rishit-katiyar/Mastering-AWS-DeepRacer/tree/main/guide)
 - [Starter Codes](https://github.com/Rishit-katiyar/Mastering-AWS-DeepRacer/tree/main/starter%20codes)
 - [Tracks](https://github.com/Rishit-katiyar/Mastering-AWS-DeepRacer/tree/main/Tracks)
 - [File chart](#Mastering-AWS-DeepRacer)
 
-## Folders:
+# Folders:
+
+The folders contain resources tailored for different levels of expertise and purposes within AWS DeepRacer. They include beginner and advanced code snippets, comprehensive guides, starter codes, and insights into track characteristics. This structure accommodates users ranging from novices to experienced practitioners, providing a range of resources to support learning and experimentation.
+
 - [Beginner Code Snippets](https://github.com/Rishit-katiyar/Mastering-AWS-DeepRacer/tree/main/beginner%20code%20snippets)
   - [level 1.md](https://github.com/Rishit-katiyar/Mastering-AWS-DeepRacer/blob/main/beginner%20code%20snippets/level%201.md)
   - [level 2.md](https://github.com/Rishit-katiyar/Mastering-AWS-DeepRacer/blob/main/beginner%20code%20snippets/level%202.md)
   - [level 3.md](https://github.com/Rishit-katiyar/Mastering-AWS-DeepRacer/blob/main/beginner%20code%20snippets/level%203.md)
   - [level 4.md](https://github.com/Rishit-katiyar/Mastering-AWS-DeepRacer/blob/main/beginner%20code%20snippets/level%204.md)
   - [level 5.md](https://github.com/Rishit-katiyar/Mastering-AWS-DeepRacer/blob/main/beginner%20code%20snippets/level%205.md)
+- [Complex code](https://github.com/Rishit-katiyar/Mastering-AWS-DeepRacer/tree/main/Complex%20code)
+  - [Code 1](https://github.com/Rishit-katiyar/Mastering-AWS-DeepRacer/blob/main/Complex%20code/code%201.md)
+  - [Code 2](https://github.com/Rishit-katiyar/Mastering-AWS-DeepRacer/blob/main/Complex%20code/code%202.md) 
+  - [Code 3](https://github.com/Rishit-katiyar/Mastering-AWS-DeepRacer/blob/main/Complex%20code/code%203.md)
+  - [Code 4](https://github.com/Rishit-katiyar/Mastering-AWS-DeepRacer/blob/main/Complex%20code/code%204.md)
+  - [Code 5](https://github.com/Rishit-katiyar/Mastering-AWS-DeepRacer/blob/main/Complex%20code/code%205.md)
 - [Guide](https://github.com/Rishit-katiyar/Mastering-AWS-DeepRacer/tree/main/guide)
   - [All Function RF.md](https://github.com/Rishit-katiyar/Mastering-AWS-DeepRacer/blob/main/guide/All%20Function%20RF.md)
   - [Visualizing AWS DeepRacer Waypoints.md](https://github.com/Rishit-katiyar/Mastering-AWS-DeepRacer/blob/main/guide/Visualizing%20AWS%20DeepRacer%20Waypoints.md)
@@ -32,7 +41,10 @@ Autonomous vehicles captivate both the public and industry professionals. **Mast
 - [Tracks](https://github.com/Rishit-katiyar/Mastering-AWS-DeepRacer/tree/main/Tracks)
   - [Characteristics of AWS DeepRacer Tracks.md](https://github.com/Rishit-katiyar/Mastering-AWS-DeepRacer/blob/main/Tracks/Characteristics%20of%20AWS%20DeepRacer%20Tracks.md)
 
-## Files:
+# Files:
+
+The files represent a structured journey through AWS DeepRacer, starting with an introduction and progressing through key concepts like reinforcement learning basics, designing and implementing reward functions, advanced strategies, real-world applications, challenges, future trends, and concluding recommendations. This organized approach ensures a comprehensive understanding of AWS DeepRacer from inception to application.
+
 - [Part I: Introduction to AWS DeepRacer.md](https://github.com/Rishit-katiyar/Mastering-AWS-DeepRacer/blob/main/Part%20I:%20Introduction%20to%20AWS%20DeepRacer.md)
 - [Part II: Reinforcement Learning Basics.md](https://github.com/Rishit-katiyar/Mastering-AWS-DeepRacer/blob/main/Part%20II:%20Reinforcement%20Learning%20Basics.md)
 - [Part III: Designing Reward Functions.md](https://github.com/Rishit-katiyar/Mastering-AWS-DeepRacer/blob/main/Part%20III:%20Designing%20Reward%20Functions.md)
@@ -148,9 +160,7 @@ Autonomous vehicles captivate both the public and industry professionals. **Mast
 │   ├── Chapter 7: Reward Function Components.md
 │   ├── Chapter 8: Advanced Reward Function Techniques.md
 │   ├── Chapter 9: Extracting Environment Data.md
-│   ├── Chapter 
-
-10: Building Reward Calculation Algorithms.md
+│   ├── Chapter 10: Building Reward Calculation Algorithms.md
 │   ├── Chapter 11: Testing and Validation.md
 │   ├── Chapter 12: Genetic Algorithms for Optimization.md
 │   ├── Chapter 13: Reinforcement Learning Techniques.md
@@ -162,6 +172,12 @@ Autonomous vehicles captivate both the public and industry professionals. **Mast
 │   ├── Chapter 19: Ethical and Social Implications.md
 │   ├── Chapter 20: Summary and Key Takeaways.md
 │   └── Chapter 21: Conclusion and Future Outlook.md
+├── complex code
+│   ├── code 1.md
+│   ├── code 2.md
+│   ├── code 3.md
+│   ├── code 4.md
+│   └── code 5.md
 ├── guide
 │   ├── All Function RF.md
 │   ├── Visualizing AWS DeepRacer Waypoints.md
@@ -182,4 +198,9 @@ Autonomous vehicles captivate both the public and industry professionals. **Mast
 ├── Part VI: Real-world Applications and Case Studies.md
 ├── Part VII: Challenges and Solutions.md
 └── Part VIII: Future Directions and Emerging Trends.md
-``` 
+```
+## End Note:
+
+Thank you for embarking on this journey through the exhilarating world of autonomous racing with Mastering AWS DeepRacer. We hope this comprehensive guide has equipped you with the knowledge and tools to dive into the exciting realm of reinforcement learning and autonomous vehicle technology. As you continue to explore and innovate, may your endeavors on the track be as thrilling as the discoveries you make along the way. Happy racing! 🏎️🚀
+
+# THANK YOU 
