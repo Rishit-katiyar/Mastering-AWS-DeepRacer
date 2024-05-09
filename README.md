@@ -57,87 +57,87 @@ The files represent a structured journey through AWS DeepRacer, starting with an
 
 # Chapters
 
-- [Chapter 1: Understanding Autonomous Racing](https://github.com/Rishit-katiyar/Mastering-AWS-DeepRacer/blob/e27cf8e7d0db7c3f0fd9712b172c31cbc3a911b5/chapters/Chapter%201:%20Understanding%20Autonomous%20Racing.md)
+- [Chapter 1: Understanding Autonomous Racing](https://github.com/Rishit-katiyar/Mastering-AWS-DeepRacer/blob/401722981e24facd926a8a4fbadc935d7f391b3f/chapter's%20/Chapter%201%3A%20Understanding%20Autonomous%20Racing.md)
   - Evolution of autonomous vehicles
   - Introduction to AWS DeepRacer 🏎️   
 
-- [Chapter 2: AWS DeepRacer Platform Overview](https://github.com/Rishit-katiyar/Mastering-AWS-DeepRacer/blob/e27cf8e7d0db7c3f0fd9712b172c31cbc3a911b5/chapters/Chapter%202:%20AWS%20DeepRacer%20Platform%20Overview.md)
+- [Chapter 2: AWS DeepRacer Platform Overview](https://github.com/Rishit-katiyar/Mastering-AWS-DeepRacer/blob/401722981e24facd926a8a4fbadc935d7f391b3f/chapter's%20/Chapter%202%3A%20AWS%20DeepRacer%20Platform%20Overview.md)
   - Hardware and software components
   - AWS RoboMaker integration 🤖
 
-- [Chapter 3: Fundamentals of Reinforcement Learning](https://github.com/Rishit-katiyar/Mastering-AWS-DeepRacer/blob/e27cf8e7d0db7c3f0fd9712b172c31cbc3a911b5/chapters/Chapter%203:%20Fundamentals%20of%20Reinforcement%20Learning.md)
+- [Chapter 3: Fundamentals of Reinforcement Learning](https://github.com/Rishit-katiyar/Mastering-AWS-DeepRacer/blob/401722981e24facd926a8a4fbadc935d7f391b3f/chapter's%20/Chapter%203%3A%20Fundamentals%20of%20Reinforcement%20Learning.md)
   - Basic concepts and terminology
   - Markov Decision Processes (MDPs) 🧠
 
-- [Chapter 4: Deep Reinforcement Learning](https://github.com/Rishit-katiyar/Mastering-AWS-DeepRacer/blob/e27cf8e7d0db7c3f0fd9712b172c31cbc3a911b5/chapters/Chapter%204:%20Deep%20Reinforcement%20Learning.md)
+- [Chapter 4: Deep Reinforcement Learning](https://github.com/Rishit-katiyar/Mastering-AWS-DeepRacer/blob/401722981e24facd926a8a4fbadc935d7f391b3f/chapter's%20/Chapter%204%3A%20Deep%20Reinforcement%20Learning.md)
   - Deep learning fundamentals
   - Q-learning algorithm 🤖
 
-- [Chapter 5: Reinforcement Learning in AWS DeepRacer](https://github.com/Rishit-katiyar/Mastering-AWS-DeepRacer/blob/e27cf8e7d0db7c3f0fd9712b172c31cbc3a911b5/chapters/Chapter%205:%20Reinforcement%20Learning%20in%20AWS%20DeepRacer.md)
+- [Chapter 5: Reinforcement Learning in AWS DeepRacer](https://github.com/Rishit-katiyar/Mastering-AWS-DeepRacer/blob/401722981e24facd926a8a4fbadc935d7f391b3f/chapter's%20/Chapter%205%3A%20Reinforcement%20Learning%20in%20AWS%20DeepRacer.md)
   - Introduction to reinforcement learning
   - Overview of DeepRacer 🏎️
 
-- [Chapter 6: Role of Reward Functions](https://github.com/Rishit-katiyar/Mastering-AWS-DeepRacer/blob/e27cf8e7d0db7c3f0fd9712b172c31cbc3a911b5/chapters/Chapter%206:%20Role%20of%20Reward%20Functions.md)
+- [Chapter 6: Role of Reward Functions](https://github.com/Rishit-katiyar/Mastering-AWS-DeepRacer/blob/401722981e24facd926a8a4fbadc935d7f391b3f/chapter's%20/Chapter%206%3A%20Role%20of%20Reward%20Functions.md)
   - Importance in reinforcement learning
   - Design considerations 🎯
 
-- [Chapter 7: Reward Function Components](https://github.com/Rishit-katiyar/Mastering-AWS-DeepRacer/blob/e27cf8e7d0db7c3f0fd9712b172c31cbc3a911b5/chapters/Chapter%207:%20Reward%20Function%20Components.md)
+- [Chapter 7: Reward Function Components](https://github.com/Rishit-katiyar/Mastering-AWS-DeepRacer/blob/401722981e24facd926a8a4fbadc935d7f391b3f/chapter's%20/Chapter%207%3A%20Reward%20Function%20Components.md)
   - Input parameters and state variables
   - Reward calculation strategies 💰
 
-- [Chapter 8: Advanced Reward Function Techniques](https://github.com/Rishit-katiyar/Mastering-AWS-DeepRacer/blob/e27cf8e7d0db7c3f0fd9712b172c31cbc3a911b5/chapters/Chapter%208:%20Advanced%20Reward%20Function%20Techniques.md)
+- [Chapter 8: Advanced Reward Function Techniques](https://github.com/Rishit-katiyar/Mastering-AWS-DeepRacer/blob/401722981e24facd926a8a4fbadc935d7f391b3f/chapter's%20/Chapter%208%3A%20Advanced%20Reward%20Function%20Techniques.md)
   - Weighted rewards and priority factors
   - Proximity-based rewards 🎖️
 
-- [Chapter 9: Extracting Environment Data](https://github.com/Rishit-katiyar/Mastering-AWS-DeepRacer/blob/e27cf8e7d0db7c3f0fd9712b172c31cbc3a911b5/chapters/Chapter%209:%20Extracting%20Environment%20Data.md)
+- [Chapter 9: Extracting Environment Data](https://github.com/Rishit-katiyar/Mastering-AWS-DeepRacer/blob/401722981e24facd926a8a4fbadc935d7f391b3f/chapter's%20/Chapter%209%3A%20Extracting%20Environment%20Data.md)
   - Sensor data acquisition
   - Data preprocessing techniques 🛠️
 
-- [Chapter 10: Building Reward Calculation Algorithms](https://github.com/Rishit-katiyar/Mastering-AWS-DeepRacer/blob/e27cf8e7d0db7c3f0fd9712b172c31cbc3a911b5/chapters/Chapter%2010:%20Building%20Reward%20Calculation%20Algorithms.md)
+- [Chapter 10: Building Reward Calculation Algorithms](https://github.com/Rishit-katiyar/Mastering-AWS-DeepRacer/blob/401722981e24facd926a8a4fbadc935d7f391b3f/chapter's%20/Chapter%2010%3A%20Building%20Reward%20Calculation%20Algorithms.md)
   - Mathematical formulations
   - Algorithm optimization techniques 📈
 
-- [Chapter 11: Testing and Validation](https://github.com/Rishit-katiyar/Mastering-AWS-DeepRacer/blob/e27cf8e7d0db7c3f0fd9712b172c31cbc3a911b5/chapters/Chapter%2011:%20Testing%20and%20Validation.md)
+- [Chapter 11: Testing and Validation](https://github.com/Rishit-katiyar/Mastering-AWS-DeepRacer/blob/401722981e24facd926a8a4fbadc935d7f391b3f/chapter's%20/Chapter%2011%3A%20Testing%20and%20Validation.md)
   - Simulation environment setup
   - Performance evaluation metrics 📊
 
-- [Chapter 12: Genetic Algorithms for Optimization](https://github.com/Rishit-katiyar/Mastering-AWS-DeepRacer/blob/e27cf8e7d0db7c3f0fd9712b172c31cbc3a911b5/chapters/Chapter%2012:%20Genetic%20Algorithms%20for%20Optimization.md)
+- [Chapter 12: Genetic Algorithms for Optimization](https://github.com/Rishit-katiyar/Mastering-AWS-DeepRacer/blob/401722981e24facd926a8a4fbadc935d7f391b3f/chapter's%20/Chapter%2012%3A%20Genetic%20Algorithms%20for%20Optimization.md)
   - Genetic algorithm fundamentals
   - Parameter tuning and optimization 🧬
 
-- [Chapter 13: Reinforcement Learning Techniques](https://github.com/Rishit-katiyar/Mastering-AWS-DeepRacer/blob/e27cf8e7d0db7c3f0fd9712b172c31cbc3a911b5/chapters/Chapter%2013:%20Reinforcement%20Learning%20Techniques.md)
+- [Chapter 13: Reinforcement Learning Techniques](https://github.com/Rishit-katiyar/Mastering-AWS-DeepRacer/blob/401722981e24facd926a8a4fbadc935d7f391b3f/chapter's%20/Chapter%2013%3A%20Reinforcement%20Learning%20Techniques.md)
   - Deep Q-Networks (DQN) for DeepRacer
   - Policy gradient methods 📈
 
-- [Chapter 14: Track-specific Reward Function Design](https://github.com/Rishit-katiyar/Mastering-AWS-DeepRacer/blob/e27cf8e7d0db7c3f0fd9712b172c31cbc3a911b5/chapters/Chapter%2014:%20Track-specific%20Reward%20Function%20Design.md)
+- [Chapter 14: Track-specific Reward Function Design](https://github.com/Rishit-katiyar/Mastering-AWS-DeepRacer/blob/401722981e24facd926a8a4fbadc935d7f391b3f/chapter's%20/Chapter%2014%3A%20Track-specific%20Reward%20Function%20Design.md)
   - Yun Speedway optimization
   - London Loop Challenge 🏁
 
-- [Chapter 15: Complex Track Navigation](https://github.com/Rishit-katiyar/Mastering-AWS-DeepRacer/blob/e27cf8e7d0db7c3f0fd9712b172c31cbc3a911b5/chapters/Chapter%2015:%20Complex%20Track%20Navigation.md)
+- [Chapter 15: Complex Track Navigation](https://github.com/Rishit-katiyar/Mastering-AWS-DeepRacer/blob/401722981e24facd926a8a4fbadc935d7f391b3f/chapter's%20/Chapter%2015%3A%20Complex%20Track%20Navigation.md)
   - Hairpin turn management
   - S-shaped curve negotiation 🔄
 
-- [Chapter 16: Overfitting and Underfitting](https://github.com/Rishit-katiyar/Mastering-AWS-DeepRacer/blob/e27cf8e7d0db7c3f0fd9712b172c31cbc3a911b5/chapters/Chapter%2016:%20Overfitting%20and%20Underfitting.md)
+- [Chapter 16: Overfitting and Underfitting](https://github.com/Rishit-katiyar/Mastering-AWS-DeepRacer/blob/401722981e24facd926a8a4fbadc935d7f391b3f/chapter's%20/Chapter%2016%3A%20Overfitting%20and%20Underfitting.md)
   - Regularization techniques
   - Model simplification approaches 🧩
 
-- [Chapter 17: Complexity Management](https://github.com/Rishit-katiyar/Mastering-AWS-DeepRacer/blob/e27cf8e7d0db7c3f0fd9712b172c31cbc3a911b5/chapters/Chapter%2017:%20Complexity%20Management.md)
+- [Chapter 17: Complexity Management](https://github.com/Rishit-katiyar/Mastering-AWS-DeepRacer/blob/401722981e24facd926a8a4fbadc935d7f391b3f/chapter's%20/Chapter%2017%3A%20Complexity%20Management.md)
   - Feature reduction methods
   - Simplification strategies 🛠️
 
-- [Chapter 18: Reinforcement Learning Advancements](https://github.com/Rishit-katiyar/Mastering-AWS-DeepRacer/blob/e27cf8e7d0db7c3f0fd9712b172c31cbc3a911b5/chapters/Chapter%2018:%20Reinforcement%20Learning%20Advancements.md)
+- [Chapter 18: Reinforcement Learning Advancements](https://github.com/Rishit-katiyar/Mastering-AWS-DeepRacer/blob/401722981e24facd926a8a4fbadc935d7f391b3f/chapter's%20/Chapter%2018%3A%20Reinforcement%20Learning%20Advancements.md)
   - Deep reinforcement learning innovations
   - Transfer learning in DeepRacer 🔄
 
-- [Chapter 19: Ethical and Social Implications](https://github.com/Rishit-katiyar/Mastering-AWS-DeepRacer/blob/e27cf8e7d0db7c3f0fd9712b172c31cbc3a911b5/chapters/Chapter%2019:%20Ethical%20and%20Social%20Implications.md)
+- [Chapter 19: Ethical and Social Implications](https://github.com/Rishit-katiyar/Mastering-AWS-DeepRacer/blob/401722981e24facd926a8a4fbadc935d7f391b3f/chapter's%20/Chapter%2019%3A%20Ethical%20and%20Social%20Implications.md)
   - Safety considerations
   - Ethical challenges and solutions 🚦
 
-- [Chapter 20: Summary and Key Takeaways](https://github.com/Rishit-katiyar/Mastering-AWS-DeepRacer/blob/e27cf8e7d0db7c3f0fd9712b172c31cbc3a911b5/chapters/Chapter%2020:%20Summary%20and%20Key%20Takeaways.md)
+- [Chapter 20: Summary and Key Takeaways](https://github.com/Rishit-katiyar/Mastering-AWS-DeepRacer/blob/401722981e24facd926a8a4fbadc935d7f391b3f/chapter's%20/Chapter%2020%3A%20Summary%20and%20Key%20Takeaways.md)
   - Summary of key findings
   - Recommendations for further exploration 📝
 
-- [Chapter 21: Conclusion and Future Outlook](https://github.com/Rishit-katiyar/Mastering-AWS-DeepRacer/blob/e27cf8e7d0db7c3f0fd9712b172c31cbc3a911b5/chapters/Chapter%2021:%20Conclusion%20and%20Future%20Outlook.md)
+- [Chapter 21: Conclusion and Future Outlook](https://github.com/Rishit-katiyar/Mastering-AWS-DeepRacer/blob/401722981e24facd926a8a4fbadc935d7f391b3f/chapter's%20/Chapter%2021%3A%20Conclusion%20and%20Future%20Outlook.md)
   - Final remarks and conclusions
   - Future trends in autonomous racing 🌟
 
