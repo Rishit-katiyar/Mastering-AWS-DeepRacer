@@ -8,7 +8,7 @@ Autonomous vehicles captivate both the public and industry professionals. **Mast
 
 ## Table of Contents:
 - [Beginner Code Snippets](https://github.com/Rishit-katiyar/Mastering-AWS-DeepRacer/tree/main/beginner%20code%20snippets)
-- [Chapters (no. 1 to 21)](https://github.com/Rishit-katiyar/Mastering-AWS-DeepRacer/tree/main/chapters)
+- [Chapters (no. 1 to 21)](#Chapters)
 - [Guide](https://github.com/Rishit-katiyar/Mastering-AWS-DeepRacer/tree/main/guide)
 - [Starter Codes](https://github.com/Rishit-katiyar/Mastering-AWS-DeepRacer/tree/main/starter%20codes)
 - [Tracks](https://github.com/Rishit-katiyar/Mastering-AWS-DeepRacer/tree/main/Tracks)
