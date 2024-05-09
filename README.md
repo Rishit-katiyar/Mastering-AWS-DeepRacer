@@ -1,5 +1,11 @@
 # Mastering AWS DeepRacer: A Comprehensive Guide to Reinforcement Learning in Autonomous Racing
 
+Autonomous racing merges cutting-edge technology with thrilling competition. **Mastering AWS DeepRacer** is your go-to resource for understanding and implementing reinforcement learning in this exciting field.
+
+## Why This Guide?
+
+Autonomous vehicles captivate both the public and industry professionals. **Mastering AWS DeepRacer** bridges theory and practice, offering a structured approach to reinforcement learning for autonomous racing.
+
 ## Table of Contents:
 - [Beginner Code Snippets](https://github.com/Rishit-katiyar/Mastering-AWS-DeepRacer/tree/main/beginner%20code%20snippets)
 - [Chapters](https://github.com/Rishit-katiyar/Mastering-AWS-DeepRacer/tree/main/chapters)
@@ -8,7 +14,7 @@
 - [Tracks](https://github.com/Rishit-katiyar/Mastering-AWS-DeepRacer/tree/main/Tracks)
 - [File chart](#Mastering-AWS-DeepRacer)
 
-### Folders:
+## Folders:
 - [Beginner Code Snippets](https://github.com/Rishit-katiyar/Mastering-AWS-DeepRacer/tree/main/beginner%20code%20snippets)
   - [level 1.md](https://github.com/Rishit-katiyar/Mastering-AWS-DeepRacer/blob/main/beginner%20code%20snippets/level%201.md)
   - [level 2.md](https://github.com/Rishit-katiyar/Mastering-AWS-DeepRacer/blob/main/beginner%20code%20snippets/level%202.md)
@@ -26,7 +32,7 @@
 - [Tracks](https://github.com/Rishit-katiyar/Mastering-AWS-DeepRacer/tree/main/Tracks)
   - [Characteristics of AWS DeepRacer Tracks.md](https://github.com/Rishit-katiyar/Mastering-AWS-DeepRacer/blob/main/Tracks/Characteristics%20of%20AWS%20DeepRacer%20Tracks.md)
 
-### Files:
+## Files:
 - [Part I: Introduction to AWS DeepRacer.md](https://github.com/Rishit-katiyar/Mastering-AWS-DeepRacer/blob/main/Part%20I:%20Introduction%20to%20AWS%20DeepRacer.md)
 - [Part II: Reinforcement Learning Basics.md](https://github.com/Rishit-katiyar/Mastering-AWS-DeepRacer/blob/main/Part%20II:%20Reinforcement%20Learning%20Basics.md)
 - [Part III: Designing Reward Functions.md](https://github.com/Rishit-katiyar/Mastering-AWS-DeepRacer/blob/main/Part%20III:%20Designing%20Reward%20Functions.md)
