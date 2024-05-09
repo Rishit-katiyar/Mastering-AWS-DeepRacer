@@ -1,6 +1,8 @@
 # Level 4
 
 ```python
+import math
+
 def reward_function(params):
     # Read input parameters
     all_wheels_on_track = params['all_wheels_on_track']
@@ -12,7 +14,6 @@ def reward_function(params):
     closest_waypoints = params['closest_waypoints']
     heading = params['heading']
     objects_distance = params['objects_distance']
-    objects_heading = params['objects_heading']
 
     # Default reward
     reward = 1e-3
@@ -42,10 +43,11 @@ def reward_function(params):
 
     # Penalty for collisions with obstacles
     MIN_OBJECTS_DISTANCE = 2.0  # Adjust this value as needed
-    if objects_distance < MIN_OBJECTS_DISTANCE:
+    if min(objects_distance) < MIN_OBJECTS_DISTANCE:
         reward *= 0.5
 
     return float(reward)
+
 ```
 
 In this level 4 reward function:
