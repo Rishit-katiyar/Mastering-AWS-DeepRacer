@@ -8,7 +8,7 @@ Autonomous vehicles captivate both the public and industry professionals. **Mast
 
 ## Table of Contents:
 - [Beginner Code Snippets](https://github.com/Rishit-katiyar/Mastering-AWS-DeepRacer/tree/main/beginner%20code%20snippets)
-- [Chapters (no. 1 to 21)](#Chapters)
+- [Chapters (1 to 21)](#Chapters)
 - [Guide](https://github.com/Rishit-katiyar/Mastering-AWS-DeepRacer/tree/main/guide)
 - [Starter Codes](https://github.com/Rishit-katiyar/Mastering-AWS-DeepRacer/tree/main/starter%20codes)
 - [Tracks](https://github.com/Rishit-katiyar/Mastering-AWS-DeepRacer/tree/main/Tracks)
@@ -203,4 +203,4 @@ The files represent a structured journey through AWS DeepRacer, starting with an
 
 Thank you for embarking on this journey through the exhilarating world of autonomous racing with Mastering AWS DeepRacer. We hope this comprehensive guide has equipped you with the knowledge and tools to dive into the exciting realm of reinforcement learning and autonomous vehicle technology. As you continue to explore and innovate, may your endeavors on the track be as thrilling as the discoveries you make along the way. Happy racing! 🏎️🚀
 
-# THANK YOU 
+# THANK YOU
