@@ -10,7 +10,8 @@ In this section, we delve into the realm of AWS DeepRacer, offering a comprehens
 
 
 
-### [Chapter 2: AWS DeepRacer Platform Overview](chapters/Chapter%202:%20AWS%20DeepRacer%20Platform%20Overview.md)
+### [Chapter 11: Testing and Validation](https://github.com/Rishit-katiyar/Mastering-AWS-DeepRacer/blob/944a1a80b835ff666ebb95204c681131b78af5a8/chapter's%20/Chapter%2011:%20Testing%20and%20Validation.md)
+
 - **Hardware and Software Components**: Explores the hardware and software components comprising the AWS DeepRacer platform, including the vehicle, sensors, simulation environment, and cloud services.
 - **AWS RoboMaker Integration**: Details the integration of AWS RoboMaker with AWS DeepRacer, elucidating its role in simulation, training, and deployment.
 
