@@ -13,7 +13,7 @@ def reward_function(params):
     waypoints = params['waypoints']
     closest_waypoints = params['closest_waypoints']
     heading = params['heading']
-    objects_distance = params['objects_distance']
+    objects_distance = min(params['objects_distance'])  # Minimum distance to objects
     objects_heading = params['objects_heading']
 
     # Default reward
@@ -53,6 +53,7 @@ def reward_function(params):
         reward *= math.cos(math.radians(abs(params['steering_angle']) - MAX_STEERING_ANGLE_DIFFERENCE))
 
     return float(reward)
+
 ```
 
 In this level 5 reward function:
