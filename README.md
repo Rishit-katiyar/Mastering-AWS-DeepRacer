@@ -57,8 +57,6 @@ The files represent a structured journey through AWS DeepRacer, starting with an
 
 # Chapters
 
-Got it! I'll update the chapter links accordingly. Here they are:
-
 - [Chapter 1: Understanding Autonomous Racing](https://github.com/Rishit-katiyar/Mastering-AWS-DeepRacer/blob/e27cf8e7d0db7c3f0fd9712b172c31cbc3a911b5/chapters/Chapter%201:%20Understanding%20Autonomous%20Racing.md)
   - Evolution of autonomous vehicles
   - Introduction to AWS DeepRacer 🏎️   
