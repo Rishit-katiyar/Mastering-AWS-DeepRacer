@@ -32,14 +32,14 @@ def reward_function(params):
     reward = MIN_REWARD
 
     # Penalty for being away from the center
-    reward -= CENTER_PENALTY * distance_from_center / track_width
+    reward -= CENTER_PENALTY * (distance_from_center / (0.5 * track_width))
 
     # Direction penalty
     if is_left_of_center:
         angle_from_center = abs(heading - 90)
     else:
         angle_from_center = abs(heading + 270)
-    reward -= DIRECTION_PENALTY * angle_from_center / 90.0
+    reward -= DIRECTION_PENALTY * (angle_from_center / 90.0)
 
     # Penalty for speed deviation
     if speed < SPEED_THRESHOLD:
@@ -57,19 +57,22 @@ def reward_function(params):
         reward += SMOOTHNESS_REWARD
 
     # Reward for acceleration
-    acceleration = params['speed'] - params['last_speed']
-    if acceleration > 0:
-        reward += ACCELERATION_REWARD
+    if 'last_speed' in params:
+        acceleration = speed - params['last_speed']
+        if acceleration > 0:
+            reward += ACCELERATION_REWARD
 
     # Reward for turning
-    heading_change = abs(params['heading'] - params['last_heading'])
-    if heading_change > 5:
-        reward += TURNING_REWARD
+    if 'last_heading' in params:
+        heading_change = abs(heading - params['last_heading'])
+        if heading_change > 5:
+            reward += TURNING_REWARD
 
     # Cap reward to maximum
     reward = max(MIN_REWARD, min(MAX_REWARD, reward))
 
     return float(reward)
+
 ```
 
 This version of the reward function includes additional features such as rewards for acceleration and turning:
