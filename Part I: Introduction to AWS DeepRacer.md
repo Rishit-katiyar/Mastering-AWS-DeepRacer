@@ -5,6 +5,8 @@ In this section, we delve into the realm of AWS DeepRacer, offering a comprehens
 ### Chapter 1: Understanding Autonomous Racing
 - **Evolution of Autonomous Vehicles**: Traces the historical development of autonomous vehicles, highlighting key milestones and technological breakthroughs.
 - **Introduction to AWS DeepRacer**: Provides an overview of AWS DeepRacer, elucidating its purpose, features, and capabilities.
+- [Mastering-AWS-DeepRacer/chapter's/Chapter 1: Understanding Autonomous Racing.md](https://github.com/Rishit-katiyar/Mastering-AWS-DeepRacer/blob/944a1a80b835ff666ebb95204c681131b78af5a8/chapter's%20/Chapter%201%3A%20Understanding%20Autonomous%20Racing.md)
+
 
 ### Chapter 2: AWS DeepRacer Platform Overview
 - **Hardware and Software Components**: Explores the hardware and software components comprising the AWS DeepRacer platform, including the vehicle, sensors, simulation environment, and cloud services.
