@@ -6,7 +6,7 @@
 - **Motivation and Objectives**: Discusses the motivations behind designing reward functions, including optimizing agent performance, encouraging desired behaviors, and discouraging undesirable actions.
 - **Impact on Learning**: Examines how reward functions influence the learning process of RL agents, emphasizing their role in shaping the agent's policy.
 
-### [Chapter 7: Reward Function Components (if basics done, start from here)](https://github.com/Rishit-katiyar/Mastering-AWS-DeepRacer/blob/944a1a80b835ff666ebb95204c681131b78af5a8/chapter's%20/Chapter%207:%20Reward%20Function%20Components%20(if%20basics%20done%2C%20start%20from%20here).md)
+### [Chapter 7: Reward Function Components (if basics done, start from here)](https://github.com/Rishit-katiyar/Mastering-AWS-DeepRacer/blob/1ed359f0999469f6ad5698fa6db7d4c10f1b1ba7/chapter's%20/Chapter%207%3A%20Reward%20Function%20Components%20(if%20basics%20done%20%2Cstart%20from%20here%20).md)
 
 - **Distance-based Rewards**: Discusses the use of distance metrics in reward functions, including distance from the center of the track, proximity to waypoints, and distances to obstacles or other agents.
 - **Progress-based Rewards**: Explores reward components based on the agent's progress along the track, including lap completion, track coverage, and lap times.
