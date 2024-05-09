@@ -13,7 +13,7 @@
 - **Action-specific Rewards**: Examines rewards tied to specific actions or behaviors, such as maintaining a desired speed, following a racing line, or avoiding collisions.
 - **Dynamic Rewards**: Introduces dynamic reward components that adapt over time or based on environmental factors, including penalties for off-track excursions, rewards for smooth driving, and adjustments based on track conditions.
 
-### [Chapter 8: Advanced Reward Function Techniques](https://github.com/Rishit-katiyar/Mastering-AWS-DeepRacer/blob/944a1a80b835ff666ebb95204c681131b78af5a8/chapter's%20/Chapter%208:%20Advanced%20Reward%20Function%20Techniques.md)
+### [Chapter 8: Advanced Reward Function Techniques](https://github.com/Rishit-katiyar/Mastering-AWS-DeepRacer/blob/04898461f9c36403dcb2c04388fef714983ef71d/chapter's%20/Chapter%207%3A%20Reward%20Function%20Components%20(if%20basics%20done%20%2Cstart%20from%20here%20).md)
 
 - **Composite Rewards**: Discusses the composition of reward functions from multiple components, exploring strategies for balancing and combining different reward signals.
 - **Inverse Reinforcement Learning**: Introduces inverse reinforcement learning techniques for inferring reward functions from expert demonstrations or observed behaviors.
