@@ -78,13 +78,14 @@ def reward_function(params):
             reward += SMOOTHNESS_WEIGHT
         
         # Proximity reward
-        proximity_reward = PROXIMITY_WEIGHT * np.mean(np.abs(np.array(params['closest_waypoints']) - np.array(params['car_coordinates'])))
+        proximity_reward = PROXIMITY_WEIGHT * np.mean(np.abs(np.array(params['closest_waypoints']) - np.array([params['x'], params['y']])))
         reward += proximity_reward
     
     else:
         reward = MIN_REWARD
     
     return float(reward)
+
 ```
 
 #### Explanation:
