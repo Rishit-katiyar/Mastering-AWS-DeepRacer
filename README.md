@@ -1,4 +1,3 @@
-
 # Mastering AWS DeepRacer: A Comprehensive Guide to Reinforcement Learning in Autonomous Racing
 
 Autonomous racing merges cutting-edge technology with thrilling competition. **Mastering AWS DeepRacer** is your go-to resource for understanding and implementing reinforcement learning in this exciting field.
